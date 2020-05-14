@@ -2,8 +2,8 @@ Pyceberg is a few customized
 [iceberg](https://github.com/cocopon/iceberg.vim)
 for python.
 
-![Screenshot](https://github.com/kuroitu/pyceberg/tree/master/images/screenshot1.png)
-![Screenshot](https://github.com/kuroitu/pyceberg/tree/master/images/screenshot2.png)
+![Screenshot](https://github.com/kuroitu/images/screenshot1.png)
+![Screenshot](https://github.com/kuroitu/images/screenshot2.png)
 
 See the [official site](https://cocopon.github.io/iceberg.vim/) or the
 [vimonline page](https://www.vim.org/scripts/script.php?script_id=4820) for more information.
