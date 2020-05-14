@@ -13,22 +13,31 @@ If you have
 [neobundle](https://github.com/Shougo/neobundle.vim)
 , write your .vimrc as follow:
 
-    NeoBundle('kuroitu/vim_item/pyceberg')
+    NeoBundle('kuroitu/pyceberg')
     colorscheme pyceberg
 
 also you have
 [dein](https://github.com/Shougo/dein.vim)
 , write your .vimrc as follow:
 
-    call dein#add('kuroitu/vim_item/pyceberg')
+    call dein#add('kuroitu/pyceberg')
     colorscheme pyceberg
 
-other way,
+other way, if you use 'vim' then
 
-    $ git clone 'https://github.com/kuroitu/vim_item/tree/master/pyceberg'
-    $ mv ~/.vim/color pyceberg
+    $ git clone 'https://github.com/kuroitu/pyceberg'
+    $ mkdir ~/.vim/colors
+    $ mv pyceberg/colors/pyceberg.vim ~/.vim/colors/
+
+or use 'neovim' then
+
+    $ git clone 'https://github.com/kuroitu/pyceberg'
+    $ mkdir ~/.config/nvim/colors
+    $ mv pyceberg/colors/pyceberg.vim ~/.config/nvim/colors
 
 and write your .vimrc as mentioned above.
+
+In any cases, if you get an error like 'pyceberg not found', rename the main file it may name 'iceberg.vim' in colors to 'pyceberg.vim'.
 
 # License
 MIT License. See `LICENSE.txt` for more information.
