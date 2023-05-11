@@ -82,7 +82,7 @@ hi! StatusLineTermNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e
 hi! StorageClass ctermfg=110 guifg=#84a0c6
 "hi! String ctermfg=109 guifg=#89b8c2
 hi! String ctermfg=130 guifg=#af5f00
-hi! Structure ctermfg=128 guifg=#84a0c6
+hi! Structure ctermfg=122 guifg=#84a0c6
 hi! TabLine cterm=NONE ctermbg=233 ctermfg=238 gui=NONE guibg=#0f1117 guifg=#3e445e
 hi! TabLineFill cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
 hi! TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#161821 guifg=#9a9ca5
